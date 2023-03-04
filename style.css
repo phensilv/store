@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100vh;
+    background-image: url(./img/image\ 7.png);
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.frete{
+    width: auto;
+    height: 35px;
+    background-color: #B3B0B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav{
+    width: auto;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 0.25);;
+    backdrop-filter: blur(12.5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: white;
+    
+}
+
+.lista{
+    display: flex;
+    gap: 25px;
+    padding: 50px;
+}
+
+.lista a{
+    color: white;
+    font-family: 'inter', sans-serif;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.lista a:hover{
+    color: orangered;
+    font-family: 'inter', sans-serif;
+}
+
+.logo{
+    font-size: 32px;
+    font-family: 'inter', sans-serif;
+    
+}
+
+nav input{
+    position: relative;
+    width: 287px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+nav input::placeholder{
+    color: white;
+    font-weight: 100;
+}
+
+.lupa{
+    position: absolute;
+    top: 30px;
+    right: 505px;
+}
+
+/*Roleta de Marcas*/
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*Aba de lançamentos*/
+
+.lancamentos{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.capitulo{
+    display: flex;
+    
+    
+    align-items: center;
+}
+
+.lancamentos h2{
+    padding-bottom: 25px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 200px;
+}
+
+.product1, .product2, .product3, .product4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars{
+    width: 150px;
+}
+
+.product1 span, .product2 span, .product3 span, .product4 span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.afterprice{
+    text-decoration: line-through;
+    color: #7C7A80;
+}
+
+.beforeprice{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+/*Rodapé*/
+
+.prefooter{
+    display: flex;
+    height: 85px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2C33;
+}
+
+.securityicons{
+    width: 45px;
+    height: 45px;
+    margin: 0px 30px 0px 30px;
+}
+
+.line1{
+    color: #7C7A80;
+}
+
+.line2{
+    color: white;
+    font-size: 12px;
+}
+
+.final{
+    height: 364px;
+    background-color: black;
+}
+
+.bi-facebook{
+    color: #7C7A80;
+}
+
+.bi-instagram{
+    color: #7C7A80
+}
+
+.info{
+    color: white;
+    font-size: 12px;
+}
+
+.info span{
+   color: #7C7A80; 
+}
+
+.container-final{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
